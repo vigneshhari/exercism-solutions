@@ -24,6 +24,3 @@ class Allergies(object):
                 ans += [self.allergies_reverse[i]]
                 temp -= (temp // i) * i
         return ans
-
-a = Allergies(509)
-print(a.lst)
